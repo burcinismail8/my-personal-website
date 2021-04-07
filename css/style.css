@@ -1,0 +1,138 @@
+body {
+  margin: 0;
+  text-align: center;
+  font-family: "Merriweather", serif;
+}
+h1 {
+  margin: 50px auto 0 auto;
+  font-family: "Sacramento", cursive;
+  font-size: 5.625rem;
+  color: #fbaccc;
+}
+h2 {
+  color: #fbaccc;
+  font-family: "Montserrat", sans-serif;
+  font-size: 2.5rem;
+}
+h3 {
+  color: #f875aa;
+  font-family: "Montserrat", sans-serif;
+}
+hr {
+  background-color: #fff;
+  border: 0.8rem dotted #fddff1;
+  border-bottom: none;
+  width: 8%;
+  margin: 7rem auto;
+}
+span {
+  text-decoration: underline;
+}
+a > img {
+  width: 3%;
+}
+a > img:hover {
+  width: 3.4%;
+}
+a {
+  color: #f875aa;
+}
+footer > p {
+  font-size: 1rem;
+}
+
+.bottom-container > p {
+  color: #f4f9f9;
+  margin-bottom: 0;
+  font-size: 1.25rem;
+}
+.bottom-container > a {
+  color: #f875aa;
+  text-decoration: none;
+  margin: 20px;
+  font-size: 1.43rem;
+}
+.middle-container > p {
+  color: #40514e;
+}
+.top-cloud {
+  position: absolute;
+  right: 250px;
+  top: 40px;
+}
+.bottom-cloud {
+  bottom: 300px;
+  position: absolute;
+  left: 250px;
+}
+.hobby-row {
+  width: 50%;
+  margin: 30px auto;
+  text-align: left;
+  line-height: 2;
+  padding: 20px;
+}
+.hobby-row:hover {
+  background-color: #fddff1;
+}
+.float-left {
+  width: 25%;
+  float: left;
+  margin-right: 30px;
+}
+.float-right {
+  width: 25%;
+  float: right;
+  margin-left: 30px;
+}
+.profile > p {
+  width: 35%;
+  margin: 2.5rem auto;
+  line-height: 2;
+}
+.contact-me {
+  margin: 0.5rem 40px;
+  line-height: 2;
+  padding: 0.7rem;
+}
+.contact-me:hover {
+  background-color: #f3efef;
+}
+.contact-me > h2 {
+  margin-bottom: 0;
+}
+.contact-me > p {
+  width: 50%;
+  margin: auto;
+}
+.top-container {
+  background-color: #f4f9f9;
+  padding-top: 100px;
+  position: relative;
+  width: 100%;
+}
+
+.bottom-container {
+  background-color: #f1d1d0;
+  padding: 30px;
+}
+.btn {
+  border-radius: 40px;
+  color: white;
+  font-size: 15px;
+  font-weight: 200;
+  padding: 25px;
+  background-color: #f875aa;
+  text-decoration: none;
+  margin: 50px auto;
+  display: inline-block;
+  cursor: pointer;
+  text-align: center;
+}
+.btn:hover {
+  background-color: #faa5c7;
+}
+#avatar {
+  border-radius: 50%;
+  margin-top: 25px;
+}
